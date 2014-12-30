@@ -1,0 +1,21 @@
+{
+  "name": "jqxhr-bluebird",
+  "version": "0.1.2",
+  "description": "jQuery.ajax wrapper with bluebird",
+  "main": "dist/index.js",
+  "repository": "https://github.com/spoqa/jqxhr-bluebird",
+  "scripts": {
+    "compile": "6to5 src/index.es6.js > dist/index.js && browserify dist/index.js > dist/jqxhr-bluebird.browser.js"
+  },
+  "author": "Jaeho Lee<jay@spoqa.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.5.2",
+    "jquery": "^2.1.3",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "6to5": "^2.2.0",
+    "browserify": "^8.0.2"
+  }
+}
